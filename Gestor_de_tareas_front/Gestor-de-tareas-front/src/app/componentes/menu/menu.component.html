@@ -1,0 +1,45 @@
+<aside>
+
+  
+  <nav class="" ng-click="$event.preventDefault()">
+    <button id="home" name="home" routerLink="/home" routerLinkActive="btn"
+      class="col-lg-2 col-2 mx-auto btn btn-aside text-dark">
+      <i class=" fas fa-users "></i><span class="ml-3 ">Home</span>
+    </button>
+    <button id="calendario" name="calendario" routerLink="/Calendario" routerLinkActive="bg-primary text-activo"
+      class="col-lg-2 col-2 mx-auto btn btn-aside text-dark">
+      <i class=" fas fa-users "></i><span class="ml-3 ">Calendario</span>
+    </button>
+    <button id="tableros" name="tableros" routerLink="/tableros" routerLinkActive="bg-primary text-activo"
+      class="col-lg-2 col-2 mx-auto btn btn-aside text-dark">
+      <i class=" fas fa-users "></i><span class="ml-3 ">Mis tableros</span>
+    </button>
+      <div class="dropdown user text-dark col-lg-2 col-2">
+        <button class="btn col-lg-12 col-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img routerLink="/perfil" class="rounded-circle" alt="foto_perfil" src="{{user.foto}}" />
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: black;">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+      
+  </nav>
+</aside>
+<!-- 
+<aside>
+    <div class="row enlaces">
+      <div class="col">
+        <button id="cursos" name="cursos" routerLink="/Calendario" routerLinkActive="bg-primary text-activo"
+          class="col-lg-11 col-3 mx-auto btn btn-aside text-dark">
+          <i class=" fas fa-users "></i><span class="ml-3 ">Calendario</span>
+        </button>
+        <button id="empresa" name="empresas" routerLinkActive="bg-primary text-activo" routerLink="/tableros"
+          class="col-lg-11 col-3 col-3 mx-auto btn btn-aside text-dark">
+          <i class="fas fa-briefcase "></i>
+          <span class="ml-3 ">Mis tableros</span>
+        </button>
+      </div>
+    </div>
+  </aside>-->
