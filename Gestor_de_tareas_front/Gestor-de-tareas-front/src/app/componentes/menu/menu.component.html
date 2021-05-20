@@ -1,0 +1,38 @@
+<aside>
+
+  
+  <nav class="" ng-click="$event.preventDefault()">
+    <button id="home" name="home" routerLink="/home" routerLinkActive="bg-primary text-activo"
+      class="col-lg-2 col-2 mx-auto btn btn-aside text-dark">
+      <i class=" fas fa-users "></i><span class="ml-3 ">Home</span>
+    </button>
+    <button id="calendario" name="calendario" routerLink="/Calendario" routerLinkActive="bg-primary text-activo"
+      class="col-lg-2 col-2 mx-auto btn btn-aside text-dark">
+      <i class=" fas fa-users "></i><span class="ml-3 ">Calendario</span>
+    </button>
+    <button id="tableros" name="tableros" routerLink="/tableros" routerLinkActive="bg-primary text-activo"
+      class="col-lg-2 col-2 mx-auto btn btn-aside text-dark">
+      <i class=" fas fa-users "></i><span class="ml-3 ">Mis tableros</span>
+    </button>
+    
+      <div class="user text-dark col-lg-1 col-1">
+        <img routerLink="/perfil" class="rounded-circle" alt="foto_perfil" src="{{user.foto}}" />
+      </div>
+  </nav>
+</aside>
+<!-- 
+<aside>
+    <div class="row enlaces">
+      <div class="col">
+        <button id="cursos" name="cursos" routerLink="/Calendario" routerLinkActive="bg-primary text-activo"
+          class="col-lg-11 col-3 mx-auto btn btn-aside text-dark">
+          <i class=" fas fa-users "></i><span class="ml-3 ">Calendario</span>
+        </button>
+        <button id="empresa" name="empresas" routerLinkActive="bg-primary text-activo" routerLink="/tableros"
+          class="col-lg-11 col-3 col-3 mx-auto btn btn-aside text-dark">
+          <i class="fas fa-briefcase "></i>
+          <span class="ml-3 ">Mis tableros</span>
+        </button>
+      </div>
+    </div>
+  </aside>-->
